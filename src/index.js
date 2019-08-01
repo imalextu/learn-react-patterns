@@ -8,6 +8,9 @@ import App from './App';
 import GetTextContainer from './pattern1/GetTextContainer';
 import ExampleHOC from './pattern2/HOC';
 import ExampleRenderProps from './pattern3/RenderProps';
+import Context from './pattern4/Context';
+import Compound from './pattern5/Compound';
+import Base from './pattern6/Base';
 
 ReactDOM.render(
     <HashRouter>
@@ -16,6 +19,9 @@ ReactDOM.render(
         <Route path="/getTextContainer" component={GetTextContainer} />
         <Route path="/hoc" component={ExampleHOC} />
         <Route path="/renderProps" component={ExampleRenderProps} />
+        <Route path="/context" component={Context} />
+        <Route path="/compound" component={Compound} />
+        <Route path="/extend" component={Base} />
     </HashRouter>,
     document.getElementById('root')
 );

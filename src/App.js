@@ -22,6 +22,21 @@ function App() {
             <Link className="App-link" to={'/renderProps'}>pattern3:render props</Link >
           </p>
         </div>
+        <div>
+          <p>
+            <Link className="App-link" to={'/context'}>pattern4:context</Link >
+          </p>
+        </div>
+        <div>
+          <p>
+            <Link className="App-link" to={'/compound'}>pattern5:compound</Link >
+          </p>
+        </div>
+        <div>
+          <p>
+            <Link className="App-link" to={'/extend'}>pattern5:extend</Link >
+          </p>
+        </div>
       </header>
     </div>
   );
